@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-bluee: hsl(217, 54%, 11%);
+    --Very-dark-blui: hsl(216, 50%, 16%);
+    --Very-dark-blue-: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Very-dark-bluee);
+    font-family: 'Outfit', sans-serif;
+}
+.nft_card{
+    width: 90%;
+    margin: 50px auto;
+    background-color: var(--Very-dark-blui);
+    border-radius: 10px;
+}
+.contenido_ntf_card{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.img_ntf_card{
+    width: 100%;
+    height: 300px;
+    margin: 22px auto;
+    background-image: url(./images/image-equilibrium.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+}
+.title_nft_card{
+    color: var(--White);
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+.paragraph_nft_card{
+    color: var(--Soft-blue);
+    font-weight: lighter;
+    padding: 5px 0 10px;
+}
+
+.contenido_numero_dias{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid rgba(157, 157, 157, 0.711);
+}
+.eth{
+    display: flex;
+    gap: 8px;
+}
+
+.textos_eth{
+    color: var(--Cyan);
+    font-weight: bold;
+
+}
+
+
+.reloj_dias{
+    display: flex;
+    gap: 8px;
+}
+.dias_text{
+    color: var(--Soft-blue);
+}
+
+.avatar_ntf{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: var(--White);
+}
+.img_avatar{
+    width: 12%;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.avatar span{
+    color: var(--Soft-blue);
+    font-weight: lighter;
+
+}
