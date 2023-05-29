@@ -124,8 +124,9 @@ body{
     .img_ntf_card:hover > .icon_view{
         display: flex;
         position: absolute;
-        top: 40%;
-        left: 45%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /*esta propiedad alinea al medio los elementos segun su contenedor*/
 
     }
 }
