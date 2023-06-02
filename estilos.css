@@ -20,8 +20,11 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 .nft_card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
     width: 90%;
-    margin: 15px auto;
     background-color: var(--Very-dark-blui);
     border-radius: 10px;
 }
@@ -111,9 +114,7 @@ body{
 
 @media (min-width:700px){
     .nft_card{
-        width: 35%;
-        margin: 0 auto;
-        margin-top: 40px;
+        width: 30%;
     }
     .img_ntf_card:hover{
         cursor: pointer;
